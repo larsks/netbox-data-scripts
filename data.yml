@@ -1,0 +1,25 @@
+---
+site:
+  - name: MGHPCC
+    time_zone: US/Eastern
+    physical_address: |
+      100 Bigelow St.
+      Holyoke, MA 01040
+  - name: PRB
+    time_zone: US/Eastern
+
+device-role:
+  - name: Server
+  - name: OpenShift Worker
+  - name: OpenShift Controller
+  - name: OpenShift Storage
+  - name: OpenStack Controller
+  - name: OpenStack Compute
+  - name: OpenStack Network
+
+manufacturer:
+  - name: Dell
+
+device-type:
+  - manufacturer: Dell
+    model: PowerEdge R620

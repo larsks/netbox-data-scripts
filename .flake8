@@ -1,0 +1,2 @@
+[flake8]
+ignore = N801, E501, H238, H301
