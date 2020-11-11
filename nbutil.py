@@ -84,7 +84,7 @@ def load(ctx, site, device_role, factfiles):
             except IndexError:
                 obj = resources.device_role(name=dev.device_role)
                 LOG.info('create new device role %s', obj)
-                devrole = api.dcim.device_role.create(**obj.to_dict())
+                devrole = api.dcim.device_roles.create(**obj.to_dict())
 
             dev.site = _site.id
             dev.device_type = devtype.id
